@@ -1,0 +1,526 @@
+{
+  "saved_at": "2026-11-04",
+  "target": "Fedora 45 KDE Plasma 6.8.x, Wayland, x86_64",
+  "fedora_since": "2026-11-03",
+  "desktop_count": 5,
+  "panel_height": 32,
+  "modules": [
+    {
+      "plugin": "org.kde.plasma.simplekickoff",
+      "groups": {
+        "General": {
+          "alphaSort": "true",
+          "favoritesPortedToKAstats": "true",
+          "icon": "@HOME@/.local/share/plasma/local-panel-assets/launcher.svg"
+        },
+        "Shortcuts": {
+          "global": "Alt+F1"
+        }
+      }
+    },
+    {
+      "plugin": "org.kde.plasma.marginsseparator",
+      "groups": {}
+    },
+    {
+      "plugin": "local.mimin.roundpager",
+      "groups": {}
+    },
+    {
+      "plugin": "org.kde.plasma.panelspacer",
+      "groups": {
+        "General": {
+          "expanding": "false",
+          "length": "3"
+        }
+      }
+    },
+    {
+      "plugin": "org.kde.plasma.quicklaunch",
+      "groups": {
+        "General": {
+          "enablePopup": "false",
+          "launcherUrls": "file:///usr/share/applications/systemsettings.desktop,file:///usr/share/applications/org.mozilla.firefox.desktop,file:///usr/share/applications/brave-browser.desktop,file://@HOME@/.local/share/applications/venom-terminal.desktop,file:///usr/share/applications/org.kde.dolphin.desktop,file:///usr/share/applications/org.kde.kwrite.desktop",
+          "maxSectionCount": "1",
+          "showLauncherNames": "false"
+        }
+      }
+    },
+    {
+      "plugin": "org.kde.plasma.marginsseparator",
+      "groups": {}
+    },
+    {
+      "plugin": "org.kde.plasma.marginsseparator",
+      "groups": {}
+    },
+    {
+      "plugin": "org.kde.windowtitle",
+      "groups": {
+        "General": {
+          "boldFont": "false",
+          "containmentType": "Plasma",
+          "filterActivityInfo": "false",
+          "filterByScreen": "true",
+          "iconFillThickness": "false",
+          "iconSize": "16",
+          "lengthPolicy": "Maximum",
+          "maximumLength": "220",
+          "showIcon": "true"
+        }
+      }
+    },
+    {
+      "plugin": "org.kde.plasma.panelspacer",
+      "groups": {
+        "General": {
+          "expanding": "true"
+        }
+      }
+    },
+    {
+      "plugin": "local.mimin.currentmedia",
+      "groups": {}
+    },
+    {
+      "plugin": "org.kde.plasma.marginsseparator",
+      "groups": {}
+    },
+    {
+      "plugin": "org.kde.plasma.notifications",
+      "groups": {}
+    },
+    {
+      "plugin": "org.kde.plasma.volume",
+      "groups": {
+        "General": {
+          "migrated": "true"
+        }
+      }
+    },
+    {
+      "plugin": "org.kde.plasma.brightness",
+      "groups": {}
+    },
+    {
+      "plugin": "org.kde.plasma.bluetooth",
+      "groups": {}
+    },
+    {
+      "plugin": "org.kde.plasma.networkmanagement",
+      "groups": {}
+    },
+    {
+      "plugin": "org.kde.plasma.systemtray",
+      "groups": {
+        "General": {
+          "extraItems": "org.kde.kdeconnect,org.kde.plasma.vault,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.dwellclicker,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.plasma.weather",
+          "hiddenItems": "org.kde.kdeconnect,org.kde.plasma.vault,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.dwellclicker,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.plasma.weather,Notificador de Discover_org.kde.DiscoverNotifier,kded6,ChatGPT,chatgpt,org.kde.xwaylandvideobridge,Pasarela de vídeo Xwayland,chrome_status_icon_1,chrome_status_icon_1@ChatGPT",
+          "iconSpacing": "1",
+          "knownItems": "org.kde.kdeconnect,org.kde.plasma.vault,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.dwellclicker,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.plasma.weather",
+          "scaleIconsToFit": "false",
+          "showAllItems": "false",
+          "shownItems": ""
+        }
+      }
+    },
+    {
+      "plugin": "org.kde.plasma.marginsseparator",
+      "groups": {}
+    },
+    {
+      "plugin": "org.kde.plasma.digitalclock",
+      "groups": {
+        "Appearance": {
+          "autoFontAndSize": "false",
+          "customDateFormat": "ddd d MMM ' | '",
+          "dateDisplayFormat": "0",
+          "dateFormat": "custom",
+          "firstDayOfWeek": "0",
+          "fontFamily": "JetBrains Mono",
+          "fontSize": "8",
+          "fontStyleName": "Regular",
+          "fontWeight": "400",
+          "showDate": "false",
+          "showSeconds": "0",
+          "showWeekNumbers": "true",
+          "use24hFormat": "0"
+        }
+      }
+    },
+    {
+      "plugin": "org.kde.plasma.marginsseparator",
+      "groups": {}
+    },
+    {
+      "plugin": "local.mimin.fedoradays",
+      "groups": {}
+    },
+    {
+      "plugin": "luisbocanegra.panel.colorizer",
+      "groups": {
+        "General": {
+          "animatePropertyChanges": "true",
+          "animationDuration": "160",
+          "blacklistIslandSeparator": "true",
+          "blacklistSpacers": "true",
+          "configurationOverrides": "{\"overrides\": {\"clock-inset\": {\"disabledFallback\": true, \"normal\": {\"enabled\": true, \"blurBehind\": false, \"backgroundColor\": {\"enabled\": true, \"sourceType\": 0, \"custom\": \"#1b202b\", \"alpha\": 1, \"lightnessValue\": 0.5, \"saturationValue\": 0.5, \"systemColor\": \"backgroundColor\", \"systemColorSet\": \"View\", \"list\": [\"#ED8796\", \"#A6DA95\", \"#EED49F\", \"#8AADF4\", \"#F5BDE6\", \"#8BD5CA\", \"#f5a97f\"], \"followColor\": 0, \"saturationEnabled\": false, \"lightnessEnabled\": false, \"animation\": {\"enabled\": false, \"interval\": 3000, \"smoothing\": 800}, \"gradient\": {\"stops\": [{\"color\": \"#ff0000\", \"position\": 0}, {\"color\": \"#f9f54e\", \"position\": 0.25}, {\"color\": \"#21fd00\", \"position\": 0.5}, {\"color\": \"#0e1eff\", \"position\": 0.75}, {\"color\": \"#fd12ff\", \"position\": 1}], \"orientation\": 0}, \"image\": {\"source\": \"\", \"fillMode\": 2}}, \"foregroundColor\": {\"enabled\": true, \"sourceType\": 0, \"custom\": \"#a9b8d5\", \"alpha\": 1, \"lightnessValue\": 0.5, \"saturationValue\": 0.5, \"systemColor\": \"highlightColor\", \"systemColorSet\": \"View\", \"list\": [\"#ED8796\", \"#A6DA95\", \"#EED49F\", \"#8AADF4\", \"#F5BDE6\", \"#8BD5CA\", \"#f5a97f\"], \"followColor\": 0, \"saturationEnabled\": false, \"lightnessEnabled\": false, \"animation\": {\"enabled\": false, \"interval\": 3000, \"smoothing\": 800}}, \"border\": {\"enabled\": true, \"customSides\": false, \"width\": 1, \"color\": {\"enabled\": true, \"sourceType\": 0, \"custom\": \"#56627b\", \"alpha\": 1, \"lightnessValue\": 0.5, \"saturationValue\": 0.5, \"systemColor\": \"highlightColor\", \"systemColorSet\": \"View\", \"list\": [\"#ED8796\", \"#A6DA95\", \"#EED49F\", \"#8AADF4\", \"#F5BDE6\", \"#8BD5CA\", \"#f5a97f\"], \"followColor\": 0, \"saturationEnabled\": false, \"lightnessEnabled\": false, \"animation\": {\"enabled\": false, \"interval\": 3000, \"smoothing\": 800}}, \"custom\": {\"widths\": {\"left\": 0, \"bottom\": 3, \"right\": 0, \"top\": 0}, \"margin\": {\"enabled\": false, \"side\": {\"right\": 0, \"left\": 0, \"top\": 0, \"bottom\": 0}}, \"radius\": {\"enabled\": false, \"corner\": {\"topLeft\": 5, \"topRight\": 5, \"bottomRight\": 5, \"bottomLeft\": 5}}}}, \"radius\": {\"enabled\": true, \"corner\": {\"topLeft\": 3, \"topRight\": 3, \"bottomRight\": 3, \"bottomLeft\": 3}}, \"margin\": {\"enabled\": true, \"side\": {\"left\": 7, \"right\": 7, \"top\": 4, \"bottom\": 4}}, \"spacing\": 4, \"fontConfig\": {\"enabled\": false, \"font\": {\"familyOverride\": false, \"family\": \"\", \"weightOverride\": false, \"weight\": 400, \"italicOverride\": false, \"italic\": true, \"underlineOverride\": false, \"underline\": true, \"pointSizeOverride\": false, \"pointSize\": 10}}, \"backgroundClipping\": false, \"borderSecondary\": {\"enabled\": false, \"customSides\": false, \"custom\": {\"widths\": {\"left\": 0, \"bottom\": 3, \"right\": 0, \"top\": 0}, \"margin\": {\"enabled\": false, \"side\": {\"right\": 0, \"left\": 0, \"top\": 0, \"bottom\": 0}}, \"radius\": {\"enabled\": false, \"corner\": {\"topLeft\": 5, \"topRight\": 5, \"bottomRight\": 5, \"bottomLeft\": 5}}}, \"width\": 0, \"color\": {\"lightnessValue\": 0.5, \"saturationValue\": 0.5, \"alpha\": 1, \"systemColor\": \"highlightColor\", \"systemColorSet\": \"View\", \"custom\": \"#ff6c06\", \"list\": [\"#ED8796\", \"#A6DA95\", \"#EED49F\", \"#8AADF4\", \"#F5BDE6\", \"#8BD5CA\", \"#f5a97f\"], \"followColor\": 0, \"saturationEnabled\": false, \"lightnessEnabled\": false, \"animation\": {\"enabled\": false, \"interval\": 3000, \"smoothing\": 800}, \"sourceType\": 1, \"enabled\": true}}, \"shadow\": {\"background\": {\"enabled\": false, \"color\": {\"lightnessValue\": 0.5, \"saturationValue\": 0.5, \"alpha\": 1, \"systemColor\": \"backgroundColor\", \"systemColorSet\": \"View\", \"custom\": \"#000000\", \"list\": [\"#ED8796\", \"#A6DA95\", \"#EED49F\", \"#8AADF4\", \"#F5BDE6\", \"#8BD5CA\", \"#f5a97f\"], \"followColor\": 0, \"saturationEnabled\": false, \"lightnessEnabled\": false, \"animation\": {\"enabled\": false, \"interval\": 3000, \"smoothing\": 800}, \"sourceType\": 1, \"enabled\": true}, \"size\": 5, \"xOffset\": 0, \"yOffset\": 0}, \"foreground\": {\"enabled\": false, \"color\": {\"lightnessValue\": 0.5, \"saturationValue\": 0.5, \"alpha\": 1, \"systemColor\": \"backgroundColor\", \"systemColorSet\": \"View\", \"custom\": \"#000000\", \"list\": [\"#ED8796\", \"#A6DA95\", \"#EED49F\", \"#8AADF4\", \"#F5BDE6\", \"#8BD5CA\", \"#f5a97f\"], \"followColor\": 0, \"saturationEnabled\": false, \"lightnessEnabled\": false, \"animation\": {\"enabled\": false, \"interval\": 3000, \"smoothing\": 800}, \"sourceType\": 1, \"enabled\": true}, \"size\": 5, \"xOffset\": 0, \"yOffset\": 0}}, \"opacity\": 1}}}, \"associations\": []}",
+          "configureFromAllWidgets": "false",
+          "enableDBusService": "false",
+          "globalSettings": "{\"panel\":{\"normal\":{\"enabled\":true,\"blurBehind\":false,\"backgroundColor\":{\"enabled\":true,\"sourceType\":0,\"custom\":\"#141923\",\"alpha\":1,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"gradient\":{\"stops\":[{\"color\":\"#ff0000\",\"position\":0},{\"color\":\"#f9f54e\",\"position\":0.25},{\"color\":\"#21fd00\",\"position\":0.5},{\"color\":\"#0e1eff\",\"position\":0.75},{\"color\":\"#fd12ff\",\"position\":1}],\"orientation\":0},\"image\":{\"source\":\"\",\"fillMode\":2}},\"foregroundColor\":{\"enabled\":true,\"sourceType\":0,\"custom\":\"#a9b8d5\",\"alpha\":1,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800}},\"border\":{\"enabled\":true,\"customSides\":false,\"width\":1,\"color\":{\"enabled\":true,\"sourceType\":0,\"custom\":\"#47536b\",\"alpha\":1,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800}},\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}}},\"radius\":{\"enabled\":true,\"corner\":{\"topLeft\":3,\"topRight\":3,\"bottomRight\":3,\"bottomLeft\":3}},\"margin\":{\"enabled\":true,\"side\":{\"left\":2,\"right\":2,\"top\":1,\"bottom\":1}},\"spacing\":4,\"flattenOnDeFloat\":false,\"backgroundClipping\":false,\"padding\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"borderSecondary\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"shadow\":{\"background\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0},\"foreground\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0}}},\"busy\":{\"enabled\":false,\"blurBehind\":false,\"flattenOnDeFloat\":false,\"backgroundClipping\":false,\"backgroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#013eff\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"gradient\":{\"stops\":[{\"color\":\"#ff0000\",\"position\":0},{\"color\":\"#f9f54e\",\"position\":0.25},{\"color\":\"#21fd00\",\"position\":0.5},{\"color\":\"#0e1eff\",\"position\":0.75},{\"color\":\"#fd12ff\",\"position\":1}],\"orientation\":0},\"image\":{\"source\":\"\",\"fillMode\":2}},\"foregroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#fc0000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"padding\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"border\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"borderSecondary\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"shadow\":{\"background\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0},\"foreground\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0}}},\"hovered\":{\"enabled\":false,\"blurBehind\":false,\"flattenOnDeFloat\":false,\"backgroundClipping\":false,\"backgroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#013eff\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"gradient\":{\"stops\":[{\"color\":\"#ff0000\",\"position\":0},{\"color\":\"#f9f54e\",\"position\":0.25},{\"color\":\"#21fd00\",\"position\":0.5},{\"color\":\"#0e1eff\",\"position\":0.75},{\"color\":\"#fd12ff\",\"position\":1}],\"orientation\":0},\"image\":{\"source\":\"\",\"fillMode\":2}},\"foregroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#fc0000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"padding\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"border\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"borderSecondary\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"shadow\":{\"background\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0},\"foreground\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0}}},\"needsAttention\":{\"enabled\":false,\"blurBehind\":false,\"flattenOnDeFloat\":false,\"backgroundClipping\":false,\"backgroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#013eff\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"gradient\":{\"stops\":[{\"color\":\"#ff0000\",\"position\":0},{\"color\":\"#f9f54e\",\"position\":0.25},{\"color\":\"#21fd00\",\"position\":0.5},{\"color\":\"#0e1eff\",\"position\":0.75},{\"color\":\"#fd12ff\",\"position\":1}],\"orientation\":0},\"image\":{\"source\":\"\",\"fillMode\":2}},\"foregroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#fc0000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"padding\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"border\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"borderSecondary\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"shadow\":{\"background\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0},\"foreground\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0}}},\"expanded\":{\"enabled\":false,\"blurBehind\":false,\"flattenOnDeFloat\":false,\"backgroundClipping\":false,\"backgroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#013eff\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"gradient\":{\"stops\":[{\"color\":\"#ff0000\",\"position\":0},{\"color\":\"#f9f54e\",\"position\":0.25},{\"color\":\"#21fd00\",\"position\":0.5},{\"color\":\"#0e1eff\",\"position\":0.75},{\"color\":\"#fd12ff\",\"position\":1}],\"orientation\":0},\"image\":{\"source\":\"\",\"fillMode\":2}},\"foregroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#fc0000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"padding\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"border\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"borderSecondary\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"shadow\":{\"background\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0},\"foreground\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0}}}},\"widgets\":{\"normal\":{\"enabled\":true,\"blurBehind\":false,\"backgroundColor\":{\"enabled\":true,\"sourceType\":0,\"custom\":\"#1b202b\",\"alpha\":1,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"gradient\":{\"stops\":[{\"color\":\"#ff0000\",\"position\":0},{\"color\":\"#f9f54e\",\"position\":0.25},{\"color\":\"#21fd00\",\"position\":0.5},{\"color\":\"#0e1eff\",\"position\":0.75},{\"color\":\"#fd12ff\",\"position\":1}],\"orientation\":0},\"image\":{\"source\":\"\",\"fillMode\":2}},\"foregroundColor\":{\"enabled\":true,\"sourceType\":0,\"custom\":\"#a9b8d5\",\"alpha\":1,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800}},\"border\":{\"enabled\":true,\"customSides\":false,\"width\":1,\"color\":{\"enabled\":true,\"sourceType\":0,\"custom\":\"#56627b\",\"alpha\":1,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800}},\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}}},\"radius\":{\"enabled\":true,\"corner\":{\"topLeft\":3,\"topRight\":3,\"bottomRight\":3,\"bottomLeft\":3}},\"margin\":{\"enabled\":true,\"side\":{\"left\":2,\"right\":2,\"top\":4,\"bottom\":4}},\"spacing\":4,\"fontConfig\":{\"enabled\":false,\"font\":{\"familyOverride\":false,\"family\":\"\",\"weightOverride\":false,\"weight\":400,\"italicOverride\":false,\"italic\":true,\"underlineOverride\":false,\"underline\":true,\"pointSizeOverride\":false,\"pointSize\":10}},\"backgroundClipping\":false,\"borderSecondary\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"shadow\":{\"background\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0},\"foreground\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0}},\"opacity\":1},\"busy\":{\"enabled\":false,\"blurBehind\":false,\"backgroundClipping\":false,\"backgroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#013eff\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"gradient\":{\"stops\":[{\"color\":\"#ff0000\",\"position\":0},{\"color\":\"#f9f54e\",\"position\":0.25},{\"color\":\"#21fd00\",\"position\":0.5},{\"color\":\"#0e1eff\",\"position\":0.75},{\"color\":\"#fd12ff\",\"position\":1}],\"orientation\":0},\"image\":{\"source\":\"\",\"fillMode\":2}},\"foregroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#fc0000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"spacing\":4,\"border\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"borderSecondary\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"shadow\":{\"background\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0},\"foreground\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0}},\"opacity\":1,\"fontConfig\":{\"enabled\":false,\"font\":{\"familyOverride\":false,\"family\":\"\",\"weightOverride\":false,\"weight\":400,\"italicOverride\":false,\"italic\":true,\"underlineOverride\":false,\"underline\":true,\"pointSizeOverride\":false,\"pointSize\":10}}},\"hovered\":{\"enabled\":false,\"blurBehind\":false,\"backgroundClipping\":false,\"backgroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#013eff\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"gradient\":{\"stops\":[{\"color\":\"#ff0000\",\"position\":0},{\"color\":\"#f9f54e\",\"position\":0.25},{\"color\":\"#21fd00\",\"position\":0.5},{\"color\":\"#0e1eff\",\"position\":0.75},{\"color\":\"#fd12ff\",\"position\":1}],\"orientation\":0},\"image\":{\"source\":\"\",\"fillMode\":2}},\"foregroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#fc0000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"spacing\":4,\"border\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"borderSecondary\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"shadow\":{\"background\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0},\"foreground\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0}},\"opacity\":1,\"fontConfig\":{\"enabled\":false,\"font\":{\"familyOverride\":false,\"family\":\"\",\"weightOverride\":false,\"weight\":400,\"italicOverride\":false,\"italic\":true,\"underlineOverride\":false,\"underline\":true,\"pointSizeOverride\":false,\"pointSize\":10}}},\"needsAttention\":{\"enabled\":false,\"blurBehind\":false,\"backgroundClipping\":false,\"backgroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#013eff\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"gradient\":{\"stops\":[{\"color\":\"#ff0000\",\"position\":0},{\"color\":\"#f9f54e\",\"position\":0.25},{\"color\":\"#21fd00\",\"position\":0.5},{\"color\":\"#0e1eff\",\"position\":0.75},{\"color\":\"#fd12ff\",\"position\":1}],\"orientation\":0},\"image\":{\"source\":\"\",\"fillMode\":2}},\"foregroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#fc0000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"spacing\":4,\"border\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"borderSecondary\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"shadow\":{\"background\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0},\"foreground\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0}},\"opacity\":1,\"fontConfig\":{\"enabled\":false,\"font\":{\"familyOverride\":false,\"family\":\"\",\"weightOverride\":false,\"weight\":400,\"italicOverride\":false,\"italic\":true,\"underlineOverride\":false,\"underline\":true,\"pointSizeOverride\":false,\"pointSize\":10}}},\"expanded\":{\"enabled\":false,\"blurBehind\":false,\"backgroundClipping\":false,\"backgroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#013eff\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"gradient\":{\"stops\":[{\"color\":\"#ff0000\",\"position\":0},{\"color\":\"#f9f54e\",\"position\":0.25},{\"color\":\"#21fd00\",\"position\":0.5},{\"color\":\"#0e1eff\",\"position\":0.75},{\"color\":\"#fd12ff\",\"position\":1}],\"orientation\":0},\"image\":{\"source\":\"\",\"fillMode\":2}},\"foregroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#fc0000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"spacing\":4,\"border\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"borderSecondary\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"shadow\":{\"background\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0},\"foreground\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0}},\"opacity\":1,\"fontConfig\":{\"enabled\":false,\"font\":{\"familyOverride\":false,\"family\":\"\",\"weightOverride\":false,\"weight\":400,\"italicOverride\":false,\"italic\":true,\"underlineOverride\":false,\"underline\":true,\"pointSizeOverride\":false,\"pointSize\":10}}}},\"trayWidgets\":{\"normal\":{\"enabled\":false,\"blurBehind\":false,\"backgroundClipping\":false,\"backgroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#013eff\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"gradient\":{\"stops\":[{\"color\":\"#ff0000\",\"position\":0},{\"color\":\"#f9f54e\",\"position\":0.25},{\"color\":\"#21fd00\",\"position\":0.5},{\"color\":\"#0e1eff\",\"position\":0.75},{\"color\":\"#fd12ff\",\"position\":1}],\"orientation\":0},\"image\":{\"source\":\"\",\"fillMode\":2}},\"foregroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#fc0000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"border\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"borderSecondary\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"shadow\":{\"background\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0},\"foreground\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0}},\"opacity\":1},\"busy\":{\"enabled\":false,\"blurBehind\":false,\"backgroundClipping\":false,\"backgroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#013eff\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"gradient\":{\"stops\":[{\"color\":\"#ff0000\",\"position\":0},{\"color\":\"#f9f54e\",\"position\":0.25},{\"color\":\"#21fd00\",\"position\":0.5},{\"color\":\"#0e1eff\",\"position\":0.75},{\"color\":\"#fd12ff\",\"position\":1}],\"orientation\":0},\"image\":{\"source\":\"\",\"fillMode\":2}},\"foregroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#fc0000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"border\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"borderSecondary\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"shadow\":{\"background\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0},\"foreground\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0}},\"opacity\":1},\"hovered\":{\"enabled\":false,\"blurBehind\":false,\"backgroundClipping\":false,\"backgroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#013eff\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"gradient\":{\"stops\":[{\"color\":\"#ff0000\",\"position\":0},{\"color\":\"#f9f54e\",\"position\":0.25},{\"color\":\"#21fd00\",\"position\":0.5},{\"color\":\"#0e1eff\",\"position\":0.75},{\"color\":\"#fd12ff\",\"position\":1}],\"orientation\":0},\"image\":{\"source\":\"\",\"fillMode\":2}},\"foregroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#fc0000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"border\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"borderSecondary\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"shadow\":{\"background\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0},\"foreground\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0}},\"opacity\":1},\"needsAttention\":{\"enabled\":false,\"blurBehind\":false,\"backgroundClipping\":false,\"backgroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#013eff\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"gradient\":{\"stops\":[{\"color\":\"#ff0000\",\"position\":0},{\"color\":\"#f9f54e\",\"position\":0.25},{\"color\":\"#21fd00\",\"position\":0.5},{\"color\":\"#0e1eff\",\"position\":0.75},{\"color\":\"#fd12ff\",\"position\":1}],\"orientation\":0},\"image\":{\"source\":\"\",\"fillMode\":2}},\"foregroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#fc0000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"border\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"borderSecondary\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"shadow\":{\"background\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0},\"foreground\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0}},\"opacity\":1},\"expanded\":{\"enabled\":false,\"blurBehind\":false,\"backgroundClipping\":false,\"backgroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#013eff\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"gradient\":{\"stops\":[{\"color\":\"#ff0000\",\"position\":0},{\"color\":\"#f9f54e\",\"position\":0.25},{\"color\":\"#21fd00\",\"position\":0.5},{\"color\":\"#0e1eff\",\"position\":0.75},{\"color\":\"#fd12ff\",\"position\":1}],\"orientation\":0},\"image\":{\"source\":\"\",\"fillMode\":2}},\"foregroundColor\":{\"enabled\":false,\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#fc0000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"border\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"borderSecondary\":{\"enabled\":false,\"customSides\":false,\"custom\":{\"widths\":{\"left\":0,\"bottom\":3,\"right\":0,\"top\":0},\"margin\":{\"enabled\":false,\"side\":{\"right\":0,\"left\":0,\"top\":0,\"bottom\":0}},\"radius\":{\"enabled\":false,\"corner\":{\"topLeft\":5,\"topRight\":5,\"bottomRight\":5,\"bottomLeft\":5}}},\"width\":0,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"highlightColor\",\"systemColorSet\":\"View\",\"custom\":\"#ff6c06\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true}},\"shadow\":{\"background\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0},\"foreground\":{\"enabled\":false,\"color\":{\"lightnessValue\":0.5,\"saturationValue\":0.5,\"alpha\":1,\"systemColor\":\"backgroundColor\",\"systemColorSet\":\"View\",\"custom\":\"#000000\",\"list\":[\"#ED8796\",\"#A6DA95\",\"#EED49F\",\"#8AADF4\",\"#F5BDE6\",\"#8BD5CA\",\"#f5a97f\"],\"followColor\":0,\"saturationEnabled\":false,\"lightnessEnabled\":false,\"animation\":{\"enabled\":false,\"interval\":3000,\"smoothing\":800},\"sourceType\":1,\"enabled\":true},\"size\":5,\"xOffset\":0,\"yOffset\":0}},\"opacity\":1},\"wideTrayArrow\":false,\"customCellSizeEnabled\":false,\"customCellSize\":22},\"nativePanel\":{\"background\":{\"enabled\":false,\"opacity\":0,\"shadow\":false},\"floatingDialogs\":false,\"floatingDialogsAllowOverride\":false,\"fillAreaOnDeFloat\":true,\"hideWhenNoWidgetsAreVisible\":false},\"stockPanelSettings\":{\"screen\":{\"enabled\":false,\"value\":0},\"position\":{\"enabled\":false,\"value\":\"top\"},\"alignment\":{\"enabled\":false,\"value\":\"center\"},\"lengthMode\":{\"enabled\":false,\"value\":\"fill\"},\"visibility\":{\"enabled\":false,\"value\":\"none\"},\"opacity\":{\"enabled\":false,\"value\":\"adaptive\"},\"floating\":{\"enabled\":false,\"value\":false},\"thickness\":{\"enabled\":false,\"value\":48},\"visible\":{\"enabled\":false,\"value\":true}},\"configurationOverrides\":{\"overrides\":{},\"associations\":[]}}",
+          "hideWidget": "true",
+          "islandSeparatorPairing": "false",
+          "islandSeparatorWidget": "org.kde.plasma.marginsseparator",
+          "islandsEnabled": "true",
+          "clockPreset": "clock-inset"
+        }
+      }
+    }
+  ],
+  "configs": {
+    "kdeglobals": {
+      "ColorEffects:Disabled": {
+        "ChangeSelectionColor": "",
+        "Color": "56,56,56",
+        "ColorAmount": "0",
+        "ColorEffect": "0",
+        "ContrastAmount": "0.65",
+        "ContrastEffect": "1",
+        "Enable": "",
+        "IntensityAmount": "0.1",
+        "IntensityEffect": "2"
+      },
+      "ColorEffects:Inactive": {
+        "ChangeSelectionColor": "true",
+        "Color": "112,111,110",
+        "ColorAmount": "0.025",
+        "ColorEffect": "2",
+        "ContrastAmount": "0.1",
+        "ContrastEffect": "2",
+        "Enable": "true",
+        "IntensityAmount": "0",
+        "IntensityEffect": "0"
+      },
+      "Colors:Button": {
+        "BackgroundAlternate": "40,45,67",
+        "BackgroundNormal": "40,45,67",
+        "DecorationFocus": "197,14,210",
+        "DecorationHover": "197,14,210",
+        "ForegroundActive": "0,193,228",
+        "ForegroundInactive": "102,106,115",
+        "ForegroundLink": "82,148,226",
+        "ForegroundNegative": "237,0,75",
+        "ForegroundNeutral": "255,162,0",
+        "ForegroundNormal": "230,220,190",
+        "ForegroundPositive": "148,247,0",
+        "ForegroundVisited": "124,183,255"
+      },
+      "Colors:Complementary": {
+        "BackgroundAlternate": "10,17,36",
+        "BackgroundNormal": "10,17,36",
+        "DecorationFocus": "197,14,210",
+        "DecorationHover": "197,14,210",
+        "ForegroundActive": "0,193,228",
+        "ForegroundInactive": "102,106,115",
+        "ForegroundLink": "82,148,226",
+        "ForegroundNegative": "237,0,75",
+        "ForegroundNeutral": "255,162,0",
+        "ForegroundNormal": "230,220,190",
+        "ForegroundPositive": "148,247,0",
+        "ForegroundVisited": "124,183,255"
+      },
+      "Colors:Selection": {
+        "BackgroundAlternate": "197,14,210",
+        "BackgroundNormal": "197,14,210",
+        "DecorationFocus": "197,14,210",
+        "DecorationHover": "197,14,210",
+        "ForegroundActive": "0,193,228",
+        "ForegroundInactive": "102,106,115",
+        "ForegroundLink": "82,148,226",
+        "ForegroundNegative": "237,0,75",
+        "ForegroundNeutral": "255,162,0",
+        "ForegroundNormal": "230,220,190",
+        "ForegroundPositive": "148,247,0",
+        "ForegroundVisited": "124,183,255"
+      },
+      "Colors:Tooltip": {
+        "BackgroundAlternate": "40,45,67",
+        "BackgroundNormal": "40,45,67",
+        "DecorationFocus": "197,14,210",
+        "DecorationHover": "197,14,210",
+        "ForegroundActive": "0,193,228",
+        "ForegroundInactive": "102,106,115",
+        "ForegroundLink": "82,148,226",
+        "ForegroundNegative": "237,0,75",
+        "ForegroundNeutral": "255,162,0",
+        "ForegroundNormal": "230,220,190",
+        "ForegroundPositive": "148,247,0",
+        "ForegroundVisited": "124,183,255"
+      },
+      "Colors:View": {
+        "BackgroundAlternate": "10,17,36",
+        "BackgroundNormal": "10,17,36",
+        "DecorationFocus": "197,14,210",
+        "DecorationHover": "197,14,210",
+        "ForegroundActive": "0,193,228",
+        "ForegroundInactive": "102,106,115",
+        "ForegroundLink": "82,148,226",
+        "ForegroundNegative": "237,0,75",
+        "ForegroundNeutral": "255,162,0",
+        "ForegroundNormal": "230,220,190",
+        "ForegroundPositive": "148,247,0",
+        "ForegroundVisited": "124,183,255"
+      },
+      "Colors:Window": {
+        "BackgroundAlternate": "10,17,36",
+        "BackgroundNormal": "10,17,36",
+        "DecorationFocus": "197,14,210",
+        "DecorationHover": "197,14,210",
+        "ForegroundActive": "0,193,228",
+        "ForegroundInactive": "102,106,115",
+        "ForegroundLink": "82,148,226",
+        "ForegroundNegative": "237,0,75",
+        "ForegroundNeutral": "255,162,0",
+        "ForegroundNormal": "230,220,190",
+        "ForegroundPositive": "148,247,0",
+        "ForegroundVisited": "124,183,255"
+      },
+      "WM": {
+        "activeBackground": "10,17,36",
+        "activeBlend": "10,17,36",
+        "activeForeground": "230,220,190",
+        "inactiveBackground": "10,17,36",
+        "inactiveBlend": "10,17,36",
+        "inactiveForeground": "102,106,115"
+      },
+      "KDE": {
+        "LookAndFeelPackage": "Utterly-Sweet",
+        "contrast": "4",
+        "frameContrast": "0.2",
+        "widgetStyle": "kvantum-dark"
+      },
+      "Icons": {
+        "Theme": "Gruvbox-Plus-Dark"
+      },
+      "General": {
+        "ColorScheme": "UtterlySweet"
+      }
+    },
+    "kwinrc": {
+      "Effect-blur": {
+        "BlurStrength": "6"
+      },
+      "Effect-fade": {
+        "FadeInTime": "140",
+        "FadeOutTime": "55"
+      },
+      "MouseBindings": {
+        "CommandAll1": "Activate, raise and move",
+        "CommandAll3": "Activate, raise and resize",
+        "CommandAllKey": "Meta"
+      },
+      "Plugins": {
+        "fadeEnabled": "true",
+        "mimin-soft-minimizeEnabled": "true",
+        "minimizeallEnabled": "true",
+        "scaleEnabled": "false",
+        "squashEnabled": "false"
+      },
+      "org.kde.kdecoration2": {
+        "library": "org.kde.kwin.aurorae.v2",
+        "theme": "__aurorae__svg__Utterly-Round-Dark",
+        "ButtonsOnLeft": "XAI",
+        "ButtonsOnRight": ""
+      }
+    },
+    "plasmarc": {
+      "Theme": {
+        "name": "Utterly-Round-PanelClaro"
+      }
+    },
+    "kscreenlockerrc": {
+      "Greeter][General": {
+        "alwaysShowClock": "true",
+        "hideClockWhenIdle": "false",
+        "showMediaControls": "true"
+      },
+      "Greeter][Wallpaper][org.kde.image][General": {
+        "Image": "file://@HOME@/.local/share/wallpapers/mimin-dunas-azul.png",
+        "PreviewImage": "file://@HOME@/.local/share/wallpapers/mimin-dunas-azul.png"
+      }
+    },
+    "kscreenlocker_greetrc": {
+      "ColorEffects:Disabled": {
+        "Color": "56,56,56",
+        "ColorAmount": "0",
+        "ColorEffect": "0",
+        "ContrastAmount": "0.65",
+        "ContrastEffect": "1",
+        "IntensityAmount": "0.1",
+        "IntensityEffect": "2"
+      },
+      "ColorEffects:Inactive": {
+        "ChangeSelectionColor": "true",
+        "Color": "112,111,110",
+        "ColorAmount": "0.025",
+        "ColorEffect": "2",
+        "ContrastAmount": "0.1",
+        "ContrastEffect": "2",
+        "Enable": "false",
+        "IntensityAmount": "0",
+        "IntensityEffect": "0"
+      },
+      "Colors:Button": {
+        "BackgroundAlternate": "33,39,53",
+        "BackgroundNormal": "27,31,42",
+        "DecorationFocus": "133,159,203",
+        "DecorationHover": "158,181,218",
+        "ForegroundActive": "158,181,218",
+        "ForegroundInactive": "133,146,169",
+        "ForegroundLink": "133,159,203",
+        "ForegroundNegative": "218,68,83",
+        "ForegroundNeutral": "246,116,0",
+        "ForegroundNormal": "230,235,243",
+        "ForegroundPositive": "39,174,96",
+        "ForegroundVisited": "176,153,202"
+      },
+      "Colors:Complementary": {
+        "BackgroundAlternate": "33,39,53",
+        "BackgroundNormal": "27,31,42",
+        "DecorationFocus": "133,159,203",
+        "DecorationHover": "158,181,218",
+        "ForegroundActive": "158,181,218",
+        "ForegroundInactive": "133,146,169",
+        "ForegroundLink": "133,159,203",
+        "ForegroundNegative": "218,68,83",
+        "ForegroundNeutral": "246,116,0",
+        "ForegroundNormal": "230,235,243",
+        "ForegroundPositive": "39,174,96",
+        "ForegroundVisited": "176,153,202"
+      },
+      "Colors:Header": {
+        "BackgroundAlternate": "33,39,53",
+        "BackgroundNormal": "27,31,42",
+        "DecorationFocus": "133,159,203",
+        "DecorationHover": "158,181,218",
+        "ForegroundActive": "158,181,218",
+        "ForegroundInactive": "133,146,169",
+        "ForegroundLink": "133,159,203",
+        "ForegroundNegative": "218,68,83",
+        "ForegroundNeutral": "246,116,0",
+        "ForegroundNormal": "230,235,243",
+        "ForegroundPositive": "39,174,96",
+        "ForegroundVisited": "176,153,202"
+      },
+      "Colors:Header][Inactive": {
+        "BackgroundAlternate": "33,39,53",
+        "BackgroundNormal": "27,31,42",
+        "DecorationFocus": "133,159,203",
+        "DecorationHover": "158,181,218",
+        "ForegroundActive": "158,181,218",
+        "ForegroundInactive": "133,146,169",
+        "ForegroundLink": "133,159,203",
+        "ForegroundNegative": "218,68,83",
+        "ForegroundNeutral": "246,116,0",
+        "ForegroundNormal": "230,235,243",
+        "ForegroundPositive": "39,174,96",
+        "ForegroundVisited": "176,153,202"
+      },
+      "Colors:Selection": {
+        "BackgroundAlternate": "33,39,53",
+        "BackgroundNormal": "67,86,119",
+        "DecorationFocus": "133,159,203",
+        "DecorationHover": "158,181,218",
+        "ForegroundActive": "158,181,218",
+        "ForegroundInactive": "133,146,169",
+        "ForegroundLink": "133,159,203",
+        "ForegroundNegative": "176,55,69",
+        "ForegroundNeutral": "198,92,0",
+        "ForegroundNormal": "230,235,243",
+        "ForegroundPositive": "23,104,57",
+        "ForegroundVisited": "176,153,202"
+      },
+      "Colors:Tooltip": {
+        "BackgroundAlternate": "33,39,53",
+        "BackgroundNormal": "27,31,42",
+        "DecorationFocus": "133,159,203",
+        "DecorationHover": "158,181,218",
+        "ForegroundActive": "158,181,218",
+        "ForegroundInactive": "133,146,169",
+        "ForegroundLink": "133,159,203",
+        "ForegroundNegative": "218,68,83",
+        "ForegroundNeutral": "246,116,0",
+        "ForegroundNormal": "230,235,243",
+        "ForegroundPositive": "39,174,96",
+        "ForegroundVisited": "176,153,202"
+      },
+      "Colors:View": {
+        "BackgroundAlternate": "33,39,53",
+        "BackgroundNormal": "22,26,36",
+        "DecorationFocus": "133,159,203",
+        "DecorationHover": "158,181,218",
+        "ForegroundActive": "158,181,218",
+        "ForegroundInactive": "133,146,169",
+        "ForegroundLink": "133,159,203",
+        "ForegroundNegative": "218,68,83",
+        "ForegroundNeutral": "246,116,0",
+        "ForegroundNormal": "230,235,243",
+        "ForegroundPositive": "39,174,96",
+        "ForegroundVisited": "176,153,202"
+      },
+      "Colors:Window": {
+        "BackgroundAlternate": "33,39,53",
+        "BackgroundNormal": "27,31,42",
+        "DecorationFocus": "133,159,203",
+        "DecorationHover": "158,181,218",
+        "ForegroundActive": "158,181,218",
+        "ForegroundInactive": "133,146,169",
+        "ForegroundLink": "133,159,203",
+        "ForegroundNegative": "218,68,83",
+        "ForegroundNeutral": "246,116,0",
+        "ForegroundNormal": "230,235,243",
+        "ForegroundPositive": "39,174,96",
+        "ForegroundVisited": "176,153,202"
+      },
+      "General": {
+        "ColorScheme": "MidnightBlue",
+        "Name": "Midnight Blue",
+        "shadeSortColumn": "true"
+      },
+      "KDE": {
+        "contrast": "4",
+        "widgetStyle": "Breeze"
+      },
+      "WM": {
+        "activeBackground": "27,31,42",
+        "activeBlend": "252,252,252",
+        "activeForeground": "205,214,230",
+        "inactiveBackground": "24,28,38",
+        "inactiveBlend": "161,169,177",
+        "inactiveForeground": "133,146,169"
+      }
+    },
+    "kglobalshortcutsrc": {
+      "kwin": {
+        "MinimizeAll": "Meta+D,none,Minimize all windows",
+        "Show Desktop": "none,Meta+D,Dar un vistazo al escritorio",
+        "Window Minimize": "Meta+PgDown,Meta+PgDown,Minimizar la ventana"
+      }
+    }
+  },
+  "tiling": {
+    "padding": 4,
+    "layoutDirection": "horizontal",
+    "tiles": [
+      {
+        "width": 0.25
+      },
+      {
+        "width": 0.5
+      },
+      {
+        "width": 0.25
+      }
+    ]
+  }
+}
