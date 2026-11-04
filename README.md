@@ -1,6 +1,27 @@
 # Mi escritorio Fedora KDE
 
-Copia del **estado final del 4 de noviembre de 2026**, para recrearlo en otro computador. Incluye únicamente la apariencia y sus componentes: no hay sesiones del navegador, contraseñas, documentos, historiales, claves ni respaldos personales. Este repositorio es privado.
+Copia del **estado final del 4 de noviembre de 2026**, para recrearlo en otro computador. Incluye únicamente la apariencia y sus componentes: no hay sesiones del navegador, contraseñas, documentos, historiales, claves ni respaldos personales. Los recursos y sus licencias están documentados en `LICENSES.md`.
+
+
+## Así se ve
+
+Capturas reales del escritorio con esta configuración. Para las vistas previas se utilizaron un usuario y nombre de equipo genéricos; no se muestran ventanas personales.
+
+### Escritorio
+
+![Escritorio Fedora KDE con fondo de dunas y panel modular](escritorio.png)
+
+### Terminal Venom
+
+![Terminal Venom con Fish, Fastfetch, transparencia y borde redondeado](terminal-venom.png)
+
+### Terminales y monitor del sistema
+
+![Terminal Venom junto a btop y Cmatrix](terminales-y-monitor.png)
+
+### Panel superior
+
+![Detalle de los módulos del panel superior](panel-superior.png)
 
 ## Qué recupera
 
@@ -18,7 +39,7 @@ Los días junto al corazón se cuentan desde **3 de noviembre de 2026**, preserv
 
 Usar **Fedora KDE con Plasma 6.8.x y Wayland, arquitectura x86_64**. La configuración usa funciones de KDE; no instala Hyprland ni controladores de GPU. La resolución original era 1920×1200, pero no se copian resoluciones, números de serie de pantallas ni identificadores de dispositivos.
 
-1. Iniciar sesión en GitHub con tu cuenta y descargar este repositorio con **Code → Download ZIP**, o clonarlo con tu método de autenticación habitual. Extraer el ZIP y abrir una terminal dentro de la carpeta.
+1. Descargar este repositorio con **Code → Download ZIP**, o clonarlo desde `https://github.com/Mimin-ue/fedora-kde-dotfiles.git`. Extraer el ZIP y abrir una terminal dentro de la carpeta.
 2. Instalar las dependencias desde los repositorios de Fedora:
 
 ```bash

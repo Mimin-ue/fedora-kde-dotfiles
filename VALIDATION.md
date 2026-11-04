@@ -17,3 +17,7 @@ Fecha del respaldo: 4 de noviembre de 2026.
 No se reinstaló el computador original para probar este repositorio ni se aplicó de nuevo el panel mientras el usuario lo estaba usando. No se realizó una prueba completa desde cero en una máquina virtual nueva. La prueba aislada valida archivos, integridad y restauración; no sustituye la comprobación visual tras iniciar sesión en el otro equipo.
 
 La distribución de mosaicos se ajusta por monitor mediante Meta+T. La apariencia administrativa de Plasma Login Manager se incluye como paso opcional y separado; debe comprobarse entrando realmente en la sesión. Otras versiones de Plasma pueden requerir adaptaciones.
+
+## Capturas públicas
+
+Se añadieron cuatro capturas reales: escritorio, Terminal Venom, conjunto con btop/Cmatrix y detalle del panel. Se tomaron en un escritorio vacío y se revisaron antes de subirlas. Las ventanas de vista previa usaron `usuario@fedora` y no muestran procesos, documentos, mensajes ni ventanas personales. Las configuraciones de vista previa no sustituyeron las del usuario.
